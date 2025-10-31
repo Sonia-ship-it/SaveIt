@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SaveIt",
+    "slug": "SaveIt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logo.png",
+    "scheme": "saveit",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/icons/logo.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.SaveIt"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/icons/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/logo.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
